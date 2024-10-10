@@ -1,0 +1,21 @@
+package:
+  name: js-uri
+  publish:
+    license: MIT
+    version: 3.1.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-js-uri
+  dependencies:
+    - functions
+    - maybe
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0
